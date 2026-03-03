@@ -48,7 +48,6 @@ jobs:
       - name: Deploy jac-shadcn with jac-scale
         run: |
           jac start main.jac --scale
-        working-directory: jac-shadcn
 
       - name: Verify deployment
         run: |
